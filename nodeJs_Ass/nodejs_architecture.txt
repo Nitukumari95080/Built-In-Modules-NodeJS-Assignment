@@ -1,0 +1,19 @@
+
+Node.js Architecture:
+----------------------
+1. **Single-Threaded Event Loop**: Node.js operates on a single-threaded event loop that allows it to handle multiple operations concurrently by managing events and executing callbacks.
+
+2. **Non-Blocking I/O**: Node.js uses non-blocking, asynchronous I/O operations, which means that operations like reading from a file or querying a database do not block the execution of other code.
+
+3. **V8 JavaScript Engine**: Node.js uses Google's V8 JavaScript engine to execute JavaScript code. V8 compiles JavaScript into machine code for fast execution.
+
+4. **Libuv Library**: Node.js relies on the Libuv library for handling asynchronous operations and providing a consistent API for file system and network operations across different platforms.
+
+5. **Callback Functions**: Node.js relies heavily on callback functions to handle the results of asynchronous operations. This allows the event loop to remain responsive and handle multiple operations simultaneously.
+
+6. **Modules**: Node.js uses a modular system where functionality is divided into modules. Each module is a separate file that can be imported and used in other modules, promoting code reusability and organization.
+Advantages of Node.js:
+- Non-blocking I/O
+- Single-threaded model
+- Scalability
+- Large ecosystem of packages
